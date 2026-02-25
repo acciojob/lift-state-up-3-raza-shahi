@@ -14,7 +14,7 @@ const App = () => {
 
   return (
     <div className="parent">
-        <h1>Parant Component</h1>
+        <h1>Parent Component</h1>
         <ChildComponent1 handleOptionChange={handleOptionChange} />
         <ChildComponent2 handleOptionChange={handleOptionChange} />
         <p>Selected Option: {selectedOption}</p>
