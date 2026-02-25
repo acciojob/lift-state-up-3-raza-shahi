@@ -4,7 +4,7 @@ const ChildComponent1 = ({ handleOptionChange }) => {
   return (
     <div className='component1'>
         <h2>ChildComponent1</h2>
-        <button onClick={() => handleOptionChange("Option 1")}>option 1</button>
+        <button onClick={() => handleOptionChange("Option 1")}>Option 1</button>
     </div>
   )
 }
