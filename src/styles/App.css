@@ -1,1 +1,18 @@
+.parent{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: limegreen;
+}
+.component1{
+    background-color: #CA5E19;
+    padding: 10px;
+}
 
+.component2{
+    background-color: #FBD000;
+    padding: 10px;
+}
+.component1 button, .component2 button{
+    cursor: pointer;
+}
